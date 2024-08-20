@@ -1,0 +1,19 @@
+/* src/styles/payment.css */
+.payment-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.payment-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form button {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

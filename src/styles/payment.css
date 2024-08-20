@@ -1,0 +1,80 @@
+.payment-form {
+  max-width: 500px;
+  margin: 30px auto; 
+  padding: 15px; 
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background-color: #ffffff; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.payment-form:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.payment-form h2 {
+  font-size: 20px; 
+  text-align: center;
+  margin-bottom: 20px; 
+  color: #333; 
+}
+
+.payment-form .input-field {
+  margin: 10px 0; 
+}
+
+.payment-form .input-field label {
+  display: block;
+  margin-bottom: 6px; 
+  font-weight: bold;
+  font-size: 15px; 
+  color: #555; 
+}
+
+.payment-form .input-field input,
+.payment-form .input-field select {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 6px; 
+  font-size: 15px; 
+  box-sizing: border-box; 
+  transition: border-color 0.3s ease;
+}
+
+.payment-form .input-field input:focus,
+.payment-form .input-field select:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+.payment-form button {
+  width: 100%;
+  padding: 12px; 
+  margin: 20px 0;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 6px; 
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.payment-form button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+.payment-form button:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed; 
+}
+
+.payment-form .error-message {
+  color: red;
+  margin-top: 10px; 
+  font-size: 15px;
+  text-align: center; 
+}

@@ -1,0 +1,17 @@
+/* SweetAlert.css */
+.custom-swal-success {
+    background-color: rgba(76, 175, 79, 0.555); /* Green with transparency */
+    color: #4CAF50; /* Green text */
+}
+
+.custom-swal-warning {
+    background-color: rgba(255, 193, 7, 0.555); /* Yellow with transparency */
+    color: #FFC107; /* Yellow text */
+}
+
+.custom-swal-error {
+    background-color: rgba(244, 67, 54, 0.555); /* Red with transparency */
+    color: #F44336; /* Red text */
+}
+
+/* Add more custom styles if needed */
